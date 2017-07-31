@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0BD4261F2F547400B226DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BD4251F2F547400B226DB /* main.m */; };
+		FA0BD4291F2F547400B226DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BD4281F2F547400B226DB /* AppDelegate.m */; };
+		FA0BD42C1F2F547400B226DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BD42B1F2F547400B226DB /* ViewController.m */; };
+		FA0BD42F1F2F547400B226DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0BD42D1F2F547400B226DB /* Main.storyboard */; };
+		FA0BD4311F2F547400B226DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0BD4301F2F547400B226DB /* Assets.xcassets */; };
+		FA0BD4341F2F547400B226DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0BD4321F2F547400B226DB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA0BD4211F2F547400B226DB /* WaiMai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaiMai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0BD4251F2F547400B226DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA0BD4271F2F547400B226DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA0BD4281F2F547400B226DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA0BD42A1F2F547400B226DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA0BD42B1F2F547400B226DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA0BD42E1F2F547400B226DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0BD4301F2F547400B226DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0BD4331F2F547400B226DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA0BD4351F2F547400B226DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0BD41E1F2F547400B226DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0BD4181F2F547400B226DB = {
+			isa = PBXGroup;
+			children = (
+				FA0BD4231F2F547400B226DB /* WaiMai */,
+				FA0BD4221F2F547400B226DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0BD4221F2F547400B226DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BD4211F2F547400B226DB /* WaiMai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0BD4231F2F547400B226DB /* WaiMai */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BD4271F2F547400B226DB /* AppDelegate.h */,
+				FA0BD4281F2F547400B226DB /* AppDelegate.m */,
+				FA0BD42A1F2F547400B226DB /* ViewController.h */,
+				FA0BD42B1F2F547400B226DB /* ViewController.m */,
+				FA0BD42D1F2F547400B226DB /* Main.storyboard */,
+				FA0BD4301F2F547400B226DB /* Assets.xcassets */,
+				FA0BD4321F2F547400B226DB /* LaunchScreen.storyboard */,
+				FA0BD4351F2F547400B226DB /* Info.plist */,
+				FA0BD4241F2F547400B226DB /* Supporting Files */,
+			);
+			path = WaiMai;
+			sourceTree = "<group>";
+		};
+		FA0BD4241F2F547400B226DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BD4251F2F547400B226DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0BD4201F2F547400B226DB /* WaiMai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0BD4381F2F547400B226DB /* Build configuration list for PBXNativeTarget "WaiMai" */;
+			buildPhases = (
+				FA0BD41D1F2F547400B226DB /* Sources */,
+				FA0BD41E1F2F547400B226DB /* Frameworks */,
+				FA0BD41F1F2F547400B226DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaiMai;
+			productName = WaiMai;
+			productReference = FA0BD4211F2F547400B226DB /* WaiMai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0BD4191F2F547400B226DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alex Inc.";
+				TargetAttributes = {
+					FA0BD4201F2F547400B226DB = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA0BD41C1F2F547400B226DB /* Build configuration list for PBXProject "WaiMai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0BD4181F2F547400B226DB;
+			productRefGroup = FA0BD4221F2F547400B226DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0BD4201F2F547400B226DB /* WaiMai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0BD41F1F2F547400B226DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0BD4341F2F547400B226DB /* LaunchScreen.storyboard in Resources */,
+				FA0BD4311F2F547400B226DB /* Assets.xcassets in Resources */,
+				FA0BD42F1F2F547400B226DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0BD41D1F2F547400B226DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0BD42C1F2F547400B226DB /* ViewController.m in Sources */,
+				FA0BD4291F2F547400B226DB /* AppDelegate.m in Sources */,
+				FA0BD4261F2F547400B226DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA0BD42D1F2F547400B226DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0BD42E1F2F547400B226DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0BD4321F2F547400B226DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0BD4331F2F547400B226DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA0BD4361F2F547400B226DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA0BD4371F2F547400B226DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0BD4391F2F547400B226DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaiMai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.WaiMai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA0BD43A1F2F547400B226DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaiMai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.WaiMai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0BD41C1F2F547400B226DB /* Build configuration list for PBXProject "WaiMai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0BD4361F2F547400B226DB /* Debug */,
+				FA0BD4371F2F547400B226DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0BD4381F2F547400B226DB /* Build configuration list for PBXNativeTarget "WaiMai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0BD4391F2F547400B226DB /* Debug */,
+				FA0BD43A1F2F547400B226DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0BD4191F2F547400B226DB /* Project object */;
+}
