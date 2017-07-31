@@ -11,6 +11,8 @@
 		FA0BD4311F2F547400B226DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0BD4301F2F547400B226DB /* Assets.xcassets */; };
 		FA0BD4341F2F547400B226DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0BD4321F2F547400B226DB /* LaunchScreen.storyboard */; };
 		FA0BD4401F2F563600B226DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BD43F1F2F563600B226DB /* AppDelegate.m */; };
+		FA0BD4491F2F5A3A00B226DB /* ALEXShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BD4481F2F5A3A00B226DB /* ALEXShopController.m */; };
+		FA0BD44C1F2F5A5C00B226DB /* ALEXFoodDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BD44B1F2F5A5C00B226DB /* ALEXFoodDetailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,10 @@
 		FA0BD4351F2F547400B226DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA0BD43E1F2F563600B226DB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA0BD43F1F2F563600B226DB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA0BD4471F2F5A3A00B226DB /* ALEXShopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEXShopController.h; sourceTree = "<group>"; };
+		FA0BD4481F2F5A3A00B226DB /* ALEXShopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEXShopController.m; sourceTree = "<group>"; };
+		FA0BD44A1F2F5A5C00B226DB /* ALEXFoodDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEXFoodDetailController.h; sourceTree = "<group>"; };
+		FA0BD44B1F2F5A5C00B226DB /* ALEXFoodDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEXFoodDetailController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,29 @@
 		FA0BD4411F2F568200B226DB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FA0BD4461F2F5A1500B226DB /* Shop */,
+				FA0BD4451F2F5A1500B226DB /* FoodDetail */,
 			);
 			name = Classes;
 			path = Libs/Classes;
+			sourceTree = "<group>";
+		};
+		FA0BD4451F2F5A1500B226DB /* FoodDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BD44A1F2F5A5C00B226DB /* ALEXFoodDetailController.h */,
+				FA0BD44B1F2F5A5C00B226DB /* ALEXFoodDetailController.m */,
+			);
+			path = FoodDetail;
+			sourceTree = "<group>";
+		};
+		FA0BD4461F2F5A1500B226DB /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BD4471F2F5A3A00B226DB /* ALEXShopController.h */,
+				FA0BD4481F2F5A3A00B226DB /* ALEXShopController.m */,
+			);
+			path = Shop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0BD4401F2F563600B226DB /* AppDelegate.m in Sources */,
+				FA0BD4491F2F5A3A00B226DB /* ALEXShopController.m in Sources */,
+				FA0BD44C1F2F5A5C00B226DB /* ALEXFoodDetailController.m in Sources */,
 				FA0BD4261F2F547400B226DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
