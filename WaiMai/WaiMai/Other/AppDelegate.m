@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ALEXShopController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,27 @@
 
 @implementation AppDelegate
 
-
+// 自定义 启动窗口
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    // 1.1 创建 窗口
+    _window = [[UIWindow alloc] init];
+    
+    // 1.2 创建 视图控制器
+    ALEXShopController *shopVC = [[ALEXShopController alloc] init];
+    
+    // 1.3 创建 导航控制器, 设置它的根控制器为shopVC
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:shopVC];
+    
+    // 1.4 为窗口 指定根控制器为 导航控制器
+    _window.rootViewController = nav;
+    
+    // 1.5 设置 窗口成为主窗口, 并且可见
+    [_window makeKeyAndVisible];
+    
+    // 1.6 返回值
     return YES;
 }
 

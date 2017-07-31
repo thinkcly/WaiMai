@@ -7,6 +7,7 @@
 //
 
 #import "ALEXShopController.h"
+#import "ALEXFoodDetailController.h"
 
 @interface ALEXShopController ()
 
@@ -17,7 +18,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor yellowColor];
 }
+
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    ALEXFoodDetailController *foodDetailVC = [[ALEXFoodDetailController alloc] init];
+    
+    [self.navigationController pushViewController:foodDetailVC animated:YES];
+    
+}
+
+
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
