@@ -1,25 +1,36 @@
 //
-//  ALEXFoodDetailController.m
+//  ALEXNavigationController.m
 //  WaiMai
 //
 //  Created by Alex Chen on 07/31/2017.
 //  Copyright © 2017 Alex Inc. All rights reserved.
 //
 
-#import "ALEXFoodDetailController.h"
+#import "ALEXNavigationController.h"
 
-@interface ALEXFoodDetailController ()
+@interface ALEXNavigationController ()
 
 @end
 
-@implementation ALEXFoodDetailController
+@implementation ALEXNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor purpleColor];
+    // 隐藏 导航控制器自带的导航条
+    self.navigationBar.hidden = YES;
 }
+
+
+
+
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

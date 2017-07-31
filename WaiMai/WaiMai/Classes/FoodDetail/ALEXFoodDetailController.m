@@ -1,44 +1,30 @@
 //
-//  ALEXShopController.m
+//  ALEXFoodDetailController.m
 //  WaiMai
 //
 //  Created by Alex Chen on 07/31/2017.
 //  Copyright © 2017 Alex Inc. All rights reserved.
 //
 
-#import "ALEXShopController.h"
 #import "ALEXFoodDetailController.h"
 
-@interface ALEXShopController ()
+@interface ALEXFoodDetailController ()
 
 @end
 
-@implementation ALEXShopController
+@implementation ALEXFoodDetailController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.view.backgroundColor = [UIColor yellowColor];
 }
 
-
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+- (void)setupUI {
     
-    ALEXFoodDetailController *foodDetailVC = [[ALEXFoodDetailController alloc] init];
-    
-    [self.navigationController pushViewController:foodDetailVC animated:YES];
+    // 设置 背景颜色
+    self.view.backgroundColor = [UIColor purpleColor];
     
 }
-
-
-
-
-
-
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
