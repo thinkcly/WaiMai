@@ -228,9 +228,9 @@
 		FA0BD45C1F2F6C5900B226DB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FA0BD45D1F2F6C5900B226DB /* FoodDetail */,
 				FA0BD4601F2F6C5900B226DB /* Main */,
 				FA0BD4651F2F6C5900B226DB /* Shop */,
+				FA0BD45D1F2F6C5900B226DB /* FoodDetail */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
