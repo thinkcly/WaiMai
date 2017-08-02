@@ -10,7 +10,7 @@
 
 @interface ALEXBaseController : UIViewController
 
-// 导航条
+// 导航条 navBar
 @property (nonatomic, strong) UINavigationBar *navBar;
 
 // navItem

@@ -6,7 +6,9 @@
 //  Copyright © 2017 Alex Inc. All rights reserved.
 //
 
+/// 基类
 #import "ALEXBaseController.h"
+
 
 @interface ALEXBaseController ()
 
@@ -24,22 +26,42 @@
 
 - (void)setupUI {
     
+    // 创建 导航条
     UINavigationBar *navBar = [[UINavigationBar alloc] init];
-    
+  
+    // 添加到 父控件
     [self.view addSubview:navBar];
     
-    [navBar]
+    // 设置 约束条件
+    [navBar mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.bottom.right.offset(0);
+    }];
     
     
+    // 向导航条 添加navItem
+    UINavigationItem *navItem = [[UINavigationItem alloc] init];
+    
+    // 把navItem设置到导航条上'建立它和导航条控件的关系'
+    [navBar setItems:@[navItem]];
+    
+    // 为属性赋值
+    _navBar = navBar;
+    _navItem = navItem;
+  
 }
 
 
 
-
-
+// 处理 内存警告
 - (void)didReceiveMemoryWarning {
+    // 继承 父类
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    
+    if (self.isViewLoaded && self.view.window == nil) {
+        
+        self.view = nil;
+    }
 }
 
 /*
