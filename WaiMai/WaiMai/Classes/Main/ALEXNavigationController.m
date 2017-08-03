@@ -7,6 +7,7 @@
 //
 
 #import "ALEXNavigationController.h"
+#import "ALEXBaseController.h"
 
 @interface ALEXNavigationController ()
 
@@ -23,9 +24,36 @@
 }
 
 
+//- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {     // 注意 应该将UIViewController 更改为 基类 ALEXBaseController, 这样才可以修改 navItem
+//    
+//}
+
+// 重写 父类的push方法
+- (void)pushViewController:(ALEXBaseController *)viewController animated:(BOOL)animated {
+    
+    // 继承 父类
+    [super pushViewController:viewController animated: animated];
+    
+    // 如果 子控制器数量 > 1
+    if (self.childViewControllers.count > 1) {
+        
+        // 自定义 leftButtonItem, 将其修改为 图片
+        viewController.navItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"btn_backItem"] style:UIBarButtonItemStylePlain target:self action:@selector(backButton)];
+        
+        NSLog(@"%@", viewController.navItem);       // 输出测试
+    }
+    
+    
+    
+}
 
 
-
+// 点击左侧返回按钮, 执行 "返回" 操作
+- (void)backButton {
+    
+    // 带有动画效果
+    [self popViewControllerAnimated:YES];
+}
 
 
 
