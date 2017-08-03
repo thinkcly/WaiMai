@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ALEXShopController.h"
+#import "ALEXNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -27,7 +28,9 @@
     ALEXShopController *shopVC = [[ALEXShopController alloc] init];
     
     // 1.3 创建 导航控制器, 设置它的根控制器为shopVC
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:shopVC];
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:shopVC];          // 使用系统样式 创建导航控制器
+    ALEXNavigationController *nav = [[ALEXNavigationController alloc] initWithRootViewController:shopVC];        // 使用自定义样式 创建导航控制器, 这样就会执行自定义导航控制器内的代码
+
     
     // 1.4 为窗口 指定根控制器为 导航控制器
     _window.rootViewController = nav;
