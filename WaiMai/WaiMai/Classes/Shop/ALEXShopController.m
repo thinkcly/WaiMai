@@ -30,8 +30,11 @@
     self.view.backgroundColor = [UIColor yellowColor];
     
     // 设置 导航栏的标题
-    self.navigationItem.title = @"商店";
+//    self.navigationItem.title = @"商店";
     
+    // 设置 导航栏的标题和主题色
+    self.navItem.title = @"商店";
+    self.navBar.barTintColor = [UIColor redColor];
     
     
     

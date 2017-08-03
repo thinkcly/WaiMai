@@ -247,10 +247,10 @@
 		FA0BD4601F2F6C5900B226DB /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				FA0BD4611F2F6C5900B226DB /* ALEXBaseController.h */,
-				FA0BD4621F2F6C5900B226DB /* ALEXBaseController.m */,
 				FA0BD4631F2F6C5900B226DB /* ALEXNavigationController.h */,
 				FA0BD4641F2F6C5900B226DB /* ALEXNavigationController.m */,
+				FA0BD4611F2F6C5900B226DB /* ALEXBaseController.h */,
+				FA0BD4621F2F6C5900B226DB /* ALEXBaseController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";

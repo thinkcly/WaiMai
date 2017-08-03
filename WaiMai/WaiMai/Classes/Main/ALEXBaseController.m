@@ -21,20 +21,18 @@
     // Do any additional setup after loading the view.
     
     [self setupUI];
-}
-
-
-- (void)setupUI {
     
     // 创建 导航条
     UINavigationBar *navBar = [[UINavigationBar alloc] init];
-  
+    
     // 添加到 父控件
     [self.view addSubview:navBar];
     
     // 设置 约束条件
     [navBar mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.bottom.right.offset(0);
+        
+        make.left.top.right.offset(0);        // 约束"left+right": 确认宽度与X坐标, 约束"top": 确认Y坐标
+        make.height.offset(64);                  // 约束"height": 确认高度
     }];
     
     
@@ -47,7 +45,12 @@
     // 为属性赋值
     _navBar = navBar;
     _navItem = navItem;
-  
+    
+}
+
+
+- (void)setupUI {
+    
 }
 
 
