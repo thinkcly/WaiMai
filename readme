@@ -1,23 +1,23 @@
 {
-	"data_0" : {
+	"data_delegate" : {
 		"code" : "0"
 	},
-	"data_1" : {
+	"data_home" : {
 		"code" : "0"
 	},
-	"data_2" : {
+	"data_market" : {
 		"code" : "5"
 	},
-	"data_3" : {
+	"data_capital" : {
 		"code" : "0"
 	},
-	"data_4" : {
+	"data_mine" : {
 		"code" : "0"
 	},
-	"data_5" : {
+	"data_login" : {
 		"code" : "0"
 	},
-	"data_6" : {
+	"data_kline" : {
 		"code" : "0"
 	}
 }
