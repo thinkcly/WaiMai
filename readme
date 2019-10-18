@@ -18,6 +18,9 @@
 		"code" : "0"
 	},
 	"data_kline" : {
-		"code" : "2"
+		"code" : "0"
+	},
+	"update" : {
+             "version" : "209"
 	}
 }
